@@ -1,0 +1,13 @@
+[package]
+name = "mini_ollama_client"
+version = "0.1.0"
+edition = "2021"
+description="Simple ollama client with minimal dependency in rust"
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3 
+
+[dependencies]
